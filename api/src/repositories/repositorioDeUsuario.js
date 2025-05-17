@@ -12,6 +12,10 @@ class RepositorioDeUsuario {
   buscarPeloEmail(email) {
     return Usuario.buscarPeloEmail(email);
   }
+
+  buscarPeloID(id) {
+    return Usuario.buscarPeloID(id);
+  }
 }
 
 module.exports = new RepositorioDeUsuario();
